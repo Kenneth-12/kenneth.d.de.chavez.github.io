@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carouselstyle.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>FrontEnd Assessment</title>
+
+</head>
+<body>
+<!-- Navigation bar -->
+  <div>
+    <nav class="navbar top">
+      <ul class="main-nav">
+        <li><strong class="sample">Sample</strong><strong class="site">Site</strong></li>
+        <li class="push"><img id="myBtn" class="shopping cart" src="sc.png"></li>
+      </ul>
+    </nav>
+  </div>
+  
+
+<!-- Carousel -->
+<div class="content carousel">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="carocont">
+          <div class="carotext">
+            <p class="header"><strong>Iphone XR</strong></p>
+            <p class="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <button id="ixr" class="iphone carbuy">BUY NOW</button>
+          </div>
+          <div class="caroimg">
+            <img class="carprod" src="car1.jpg">
+          </div>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="carocont">
+          <div class="carotext">
+            <p class="header"><strong>Iphone 11</strong></p>
+            <p class="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <button id="i11" class="iphone carbuy">BUY NOW</button>
+          </div>
+          <div class="caroimg">
+            <img class="carprod" src="car2.jpg">
+          </div>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="carocont">
+          <div class="carotext">
+            <p class="header"><strong>Iphone 11 Pro</strong></p>
+            <p class="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <button id="ipro" class="iphone carbuy">BUY NOW</button>
+          </div>
+          <div class="caroimg">
+            <img class="carprod" src="car3.jpg">
+          </div>
+        </div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <script src="slideshow.js"></script>
+  </div>
+  <!-- Flex box product -->
+  <div class="grid products">
+    <div class="box zone"> 
+      <img class="prodsize" src="iphone11 picture.jpg"> 
+      <h4>Good Item name</h4>
+      <ul class="ordercon">
+        <li class="price">$1234</li>
+        <li class="order"><button id="i11d" class="orderbtn">ORDER</button></li>
+      </ul>
+    </div>
+    <div class="box zone"> 
+      <img class="prodsize" src="iphone11 picture.jpg"> 
+      <h4>Good Item name</h4>
+      <ul class="ordercon">
+        <li class="price">$1234</li>
+        <li class="order"><button id="i11d" class="orderbtn">ORDER</button></li>
+      </ul>
+    </div>
+    <div class="box zone"> 
+      <img class="prodsize" src="iphone11 picture.jpg"> 
+      <h4>Good Item name</h4>
+      <ul class="ordercon">
+        <li class="price">$1234</li>
+        <li class="order"><button id="i11d" class="orderbtn">ORDER</button></li>
+      </ul>
+    </div>
+    <div class="box zone"> 
+      <img class="prodsize" src="iphone11 picture.jpg"> 
+      <h4>Good Item name</h4>
+      <ul class="ordercon">
+        <li class="price">$1234</li>
+        <li class="order"><button id="i11d" class="orderbtn">ORDER</button></li>
+      </ul>
+    </div><br>
+    <div class="box zone"> 
+      <img class="prodsize" src="iphone11 picture.jpg"> 
+      <h4>Good Item name</h4>
+      <ul class="ordercon">
+        <li class="price">$1234</li>
+        <li class="order"><button id="i11d" class="orderbtn">ORDER</button></li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <footer class="fot">Copyright 2019 FED Basic Assessment</footer>
+<!-- The Modal -->
+
+<div id="modal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="exit"></span>
+    <p>Some text in the Modal..</p>
+    <ul class="cartproducts">
+      
+    </ul>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
